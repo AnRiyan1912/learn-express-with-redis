@@ -1,0 +1,23 @@
+{
+  "name": "learn_redis_for_chacing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-redis": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "ioredis": "^5.4.1",
+    "object-hash": "^3.0.0",
+    "pg": "^8.11.5",
+    "redis": "^4.6.13"
+  }
+}
